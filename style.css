@@ -1,0 +1,218 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body { overflow-x: hidden;}
+
+.heading-two {
+  letter-spacing: 1px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+.header {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index:99;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.logo {
+  background: #31315d;
+  padding: 10px 20px;
+  max-width:200px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.nav ul {
+  margin-bottom: 0;
+}
+
+.nav ul li{
+  margin: 0 10px;
+  position: relative;
+}
+
+.nav ul li ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav ul li a{
+  color: #5c70af;
+  font-weight: bold;
+}
+
+.visually-hidden {
+  height:0 !important;
+  position:absolute !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  width:0 !important;
+  overflow:hidden;
+}
+
+.banner {
+  height: 700px;
+  overflow: hidden;
+  background-position: top center;
+  background-size: cover;
+}
+
+.banner-title {
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px #666;
+}
+.banner img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-title {
+  color: #31315d;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.intro-subtitle {
+  font-style: italic;
+  font-weight: normal;
+  color: #666;
+  font-size: 24px;
+  margin-bottom: 40px
+}
+
+.intro p {
+  max-width: 860px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.available-dogs {
+  background: #4b4b67;
+  padding: 60px 0;
+}
+
+.available-dogs .heading-two  {
+   color: #fff;
+ }
+
+.puppy {
+  margin-bottom: 40px;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.puppy-inner {
+  border: 1px solid #9495ad;
+  background: rgba(250,250,250,.2);
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.puppy .name {
+  color: #fff;
+  border-bottom: 2px solid #4b4c67;
+  padding-bottom:10px;
+}
+
+.puppy .name i {
+  font-size: 16px;
+  opacity: .7;
+  position: relative;
+  top:-5px;
+}
+
+.puppy .desc {
+  font-style: italic;
+  font-size: 14px;
+  color: #fff;
+}
+
+.puppy img {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.contact-us {
+  padding: 60px 0;
+  background: #f1f1f1;
+}
+
+.contact-us form {
+  padding: 0 200px;
+}
+
+.footer {
+  padding: 60px 0;
+  background: #383838;
+}
+
+.footer * {
+  color: #fff;
+}
+
+.footer address i {
+  width: 30px;
+  opacity:.5;
+  text-align:center;
+}
+
+.footer .logo {
+  background-color: transparent;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer ul li{
+  display: inline;
+}
+
+.footer .social li a{
+  padding: 10px;
+  background: gray;
+  border-radius: 40px;
+  width: 45px;
+  display: inline-block;
+}
+
+.button-more {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  background-color: #3eb9a3;
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align: center;
+  outline: 0;
+  border:0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.button-more:hover {
+  color: #fff;
+  background-color: #35a08d;
+}
