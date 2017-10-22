@@ -26,8 +26,19 @@
               <li>
                 <a href="/about" role="menuitem" tabindex="-1">About</a>
               </li>
-              <li>
-                <a href="/available-dogs" role="menuitem" tabindex="-1">Available Dogs</a>
+              <li class="hover">
+                <a href="/available-dogs" role="menuitem" tabindex="-1">Available Dogs <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                <ul class="sub-nav list-unstyled">
+                  <li>
+                    <a href="/available-dogs/puppies">Puppies</a>
+                  </li>
+                  <li>
+                    <a href="/available-dogs/young-dogs">Young dogs</a>
+                  </li>
+                  <li>
+                    <a href="/available-dogs/senior-dogs">Senior dogs</a>
+                  </li>
+                </ul>
               </li>
               <li>
                 <a href="/adopt" role="menuitem" tabindex="-1">Adopt</a>
@@ -139,27 +150,27 @@
       </section>
       <section id="contact-us" class="contact-us row">
         <div class="container">
-          <h2 class="col-12 text-center heading-two">Get more Information</h2>
+          <h2 class="col-12 text-center contact-heading  heading-two">Get more Information</h2>
           <form>
+            <p>
+              <label for="name" class="label">Name:</label>
+              <input type="text" name="name" id="name" value="" required placeholder="Firstname Lastname">
+            </p>
             <fieldset>
-              <legend>Fruit juice size</legend>
+              <legend class="visually-hidden">Preferred way of contact</legend>
               <p>
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" value="" required placeholder="Firstname Lastname">
-              </p>
-              <p>
-                <label for="email">Email</label>
+                <label for="email" class="label">Email:</label>
                 <input type="email" name="email" id="email" value="" required placeholder="example@example.com">
               </p>
               <p>
-                <label for="phone">Phone</label>
+                <label for="phone" class="label">Phone:</label>
                 <input type="tel" name="phone" id="phone" value="" placeholder="5558675309">
               </p>
+            </fieldset>
               <p>
-                <label for="comments">Comments or Questions</label>
+                <label for="comments" class="label">Comments or Questions:</label>
                 <textarea name="comments" id="comments" value="" placeholder=""></textarea>
               </p>
-            </fieldset>
           </form>
         </div>
       </section>

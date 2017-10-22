@@ -36,7 +36,26 @@ body { overflow-x: hidden;}
 
 .nav ul li{
   margin: 0 10px;
+  padding: 0 10px;
   position: relative;
+}
+
+.nav ul .hover .sub-nav {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+  width: 200px;
+}
+.nav ul .hover:hover .sub-nav,
+.nav ul .hover .sub-nav:hover {
+  display: block;
+}
+
+.nav ul .hover .sub-nav li {
+  padding: 10px;
+  border-top: 1px solid #eaeaea;
 }
 
 .nav ul li ul {
@@ -159,8 +178,20 @@ body { overflow-x: hidden;}
   background: #f1f1f1;
 }
 
+.contact-heading {
+  color: #666;
+}
+
 .contact-us form {
   padding: 0 200px;
+}
+
+.contact-us form .label{
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: #666;
+  font-weight: bold;
 }
 
 .footer {
