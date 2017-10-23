@@ -43,10 +43,11 @@ body { overflow-x: hidden;}
 .nav ul .hover .sub-nav {
   display: none;
   position: absolute;
-  top: 40px;
+  top: 20px;
   left: 0;
-  background: #fff;
+  background: rgba(250,250,250,.9);
   width: 200px;
+  padding-top: 20px;
 }
 .nav ul .hover:hover .sub-nav,
 .nav ul .hover .sub-nav:hover {
@@ -55,7 +56,7 @@ body { overflow-x: hidden;}
 
 .nav ul .hover .sub-nav li {
   padding: 10px;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #fff;
 }
 
 .nav ul li ul {
@@ -185,6 +186,13 @@ body { overflow-x: hidden;}
 .contact-us form {
   padding: 0 200px;
 }
+.contact-us form input,
+.contact-us form textarea {
+  border-radius:5px;
+  padding: 10px 15px;
+  border: 0;
+  width: 100%;
+}
 
 .contact-us form .label{
   display: block;
@@ -192,6 +200,7 @@ body { overflow-x: hidden;}
   font-size: 14px;
   color: #666;
   font-weight: bold;
+  border-bottom: 5px;
 }
 
 .footer {
