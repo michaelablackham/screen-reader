@@ -183,7 +183,7 @@ body { overflow-x: hidden;}
   color: #666;
 }
 
-.contact-us form {
+.contact-us .extra-padding {
   padding: 0 200px;
 }
 .contact-us form input,
